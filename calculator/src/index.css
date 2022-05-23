@@ -1,0 +1,106 @@
+:root {
+  --primary: #e77777;
+  --secondary: #dfd0dd;
+  --dark: rgb(31, 30, 30);
+  --light: white;
+  --header : rgba(195, 188, 233, 0.747);
+}
+
+* {
+  margin : 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+body {
+  background-color: var(--light);
+}
+
+.App{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 30px;
+  
+}
+
+.Calculator{
+  width: 100%;
+  max-width: 700px;
+  max-height: 900px;
+  background-color: var(--dark);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0px 2px 64px rgba(219, 85, 139, 0.2);
+}
+.Display{
+  padding: 30px;
+  text-align: right;
+  color: black;
+  background-color: rgb(177, 172, 172);
+font-size: 30px;
+}
+.Display span{
+  font-size: 13px;
+  color: rgb(66, 65, 64);
+}
+
+button{
+  background-color: aqua;
+  appearance: none;
+  border: 10px;
+  padding: 16px;
+  border-color: rgb(175, 175, 184);
+  outline: none;
+  font-size: 25px;
+  transition: 0.4s;
+}
+button :hover{
+  opacity: 0.9;
+}
+
+.Operators {
+  display: flex;
+}
+.Operators button{
+  flex: 1 1 0%;
+  background-color: var(--primary);
+  font-weight: 900;
+}
+.Digits {
+  display: flex;
+  flex-wrap: wrap;
+}
+.Digits button{
+  flex: 1 1 33.33%;
+  max-width: 33.3333%;
+  background-color: var(--secondary);
+  font-weight: 700;
+  overflow: hidden;
+} 
+
+.Header{
+  padding-right: 40px;
+  padding-left: 40px;
+  justify-content: left;
+  width: 100%;
+  max-width: 900px;
+  max-height: 900px;
+  background-color: var(--header);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 2px 64px rgba(219, 85, 139, 0.2);
+  color:rgb(66, 149, 223);
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 b{
+  text-align:center;
+  font-size: 60px;
+  color: rgb(201, 11, 11);
+  font-weight: 1500;
+  
+}
