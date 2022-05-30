@@ -1,18 +1,27 @@
-.wether{
-    background-color: aqua;
-    max-width: 400px;
-    max-height: 700px;
-    box-sizing: border-box;
-    padding: 15px;
-    border-radius: 18px;
-    border: 5px solid #FFFF00;
-    text-align: center;
-    padding: 50px 0;
-    margin: auto;
-width: 60%;
-position: absolute;
-left: 50%;
-top: 50%;
-transform: translate(-50%, -50%);
+.wether {
+  background-color: rgb(55, 56, 56);
+  max-width: 400px;
+  max-height: 700px;
+  box-sizing: border-box;
+  padding: 15px;
+  border-radius: 18px;
+  border: 5px solid #ffff00;
+  text-align: center;
+  padding: 50px 0;
+  margin: auto;
+  width: 60%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
+.user{
+    background-color: rgb(175, 209, 209);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:lighter;
+    color:#353533;
+    padding: 10px 0;
+    border-radius: 12px;
+    border: 3px solid #89d6b0;
 }
