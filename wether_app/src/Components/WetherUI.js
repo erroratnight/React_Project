@@ -40,7 +40,6 @@ function WetherUI() {
         <div className="display">
           <h2 className="location">
             {search}
-            {}
           </h2>
           <h1 className="data">{city.temp}°C</h1>
           <h4 className="min_max">
