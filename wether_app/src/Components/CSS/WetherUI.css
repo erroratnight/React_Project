@@ -1,0 +1,18 @@
+.wether{
+    background-color: aqua;
+    max-width: 400px;
+    max-height: 700px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 18px;
+    border: 5px solid #FFFF00;
+    text-align: center;
+    padding: 50px 0;
+    margin: auto;
+width: 60%;
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+
+}
