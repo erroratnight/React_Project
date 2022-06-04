@@ -53,6 +53,3 @@ function WetherUI() {
 }
 
 export default WetherUI;
-
-// key ==  f4accb15ba2ea34332f2c5e165f43e6c
-// Api   https://api.openweathermap.org/data/2.5/weather?q=Pune&appid=f4accb15ba2ea34332f2c5e165f43e6c
